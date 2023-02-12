@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body{
+	height:100vh;
+	background:linear-gradient(to right,#73f5a5,#4292e3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+form{
+	height: 28rem;
+	width: 25rem;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+}
+form:hover
+{
+	box-shadow: 0 10px 10px rgba(0,0,0,0.4);
+}
+form h1{
+	color: white;
+	margin: 20px auto;
+}
+form input
+{
+	width: 70%;
+	margin: 10px auto;
+	height: 12%;
+	text-align: center;
+	border:none;
+	outline: none;
+
+}
+form button
+{
+	margin: 10px auto;
+	width: 70%;
+	height: 10%;
+	border-radius:30px;
+	border:none;
+	background-color: #19324a;
+	color:white;
+	transform:0.4s;
+}
+form button:hover
+{
+	transform: 0.4s;
+	cursor: pointer;
+	background-color: #1f4163;
+
+}
+form span {
+	color: white;
+	margin:10px auto;
+	font-size:13px;
+
+}
+form span a
+{
+	font-size: 14px;
+	color: white;
+	text-decoration:none;
+}
+
+/* Reset Password */
+#reset
+{
+	font-size: 23px;
+	margin:10px auto;
+}
+.reset_form
+{
+	height: 17rem;
+	padding-top: 30px;
+}
